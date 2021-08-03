@@ -1,0 +1,81 @@
+
+@font-face {
+    font-family: "Bikham Cyr Script";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header-container{
+    height: 813px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-container-text{
+    /* Style for "There is n" */
+    animation: myMove 2s linear 0s 1 normal;
+    width: 708px;
+    height: 138px;
+    color: #282828;
+    font-family: "Exo - Thin", Arial;
+    font-size: 60px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    /* Text style for "T, here is" */
+    letter-spacing: 2.4px;
+    line-height: normal;
+    margin-bottom: 43px;
+}
+
+.header-container-text-btn{
+    /* Style for "Rounded Re" */
+    width: 190px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #ff6d6d;
+    outline: none;
+    cursor: pointer;
+    /* Style for "Try now" */
+    color: #ffffff;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "Try now" */
+    letter-spacing: 3.2px;
+    line-height: normal;
+    margin: 38px 0 19px 0;
+    border: none;
+}
+
+.header-container-text-btn:hover{
+    background: #323969;
+}
+
+.header-container-text-p{
+    /* Style for "* No need" */
+    width: 203px;
+    height: 11px;
+    opacity: 0.6;
+    color: #282828;
+    font-family: Exo;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    /* Text style for "*,  No nee" */
+    letter-spacing: 0.56px;
+    line-height: normal;
+}
+
+@keyframes myMove {
+    0% { left: 16px; }
+    100% { left: 190px; }
+}

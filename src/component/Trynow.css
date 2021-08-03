@@ -1,0 +1,111 @@
+
+.trynow-conteiner{
+    /* Style for "Rectangle" */
+    width: 1440px;
+    min-height: 467px;
+    background-color: #323969;
+}
+
+.trynow-conteiner-column{
+    min-height: 467px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.trynow-conteiner-header-h3{
+    /* Style for "NEW FEATUR" */
+    color: #ff6d6d;
+    font-family: Exo;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "N, EW FEAT" */
+    font-style: normal;
+    letter-spacing: 3.2px;
+    line-height: normal;
+}
+
+.trynow-conteiner-header-h1{
+    /* Style for "Over 1000" */
+    color: #ffffff;
+    font-family: Exo;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    /* Text style for "O, ver 100" */
+    font-style: normal;
+    letter-spacing: 1.6px;
+    margin: 15px 0 95px 0;
+}
+
+.trynow__hint{
+    position: relative;
+}
+
+.trynow__arrow{
+    position: absolute;
+    right: 190px;
+    top: -39px;
+}
+
+.trynow__desc{
+    position: absolute;
+    right: 65px;
+    top: -55px;
+    color: #F6F5F3;
+    font-size: 16px;
+    font-family: "Exo - Thin", serif;
+}
+
+.trynow-conteiner-form-input{
+    box-sizing: border-box;
+    margin: 12px;
+    /* Style for "Rounded Re" */
+    width: 263px;
+    height: 49px;
+    border-radius: 3px;
+    border: 1px solid #ffffff;
+    background-color: #f6f5f3;
+    opacity: 0.5;
+    /* Style for "FULL NAME" */
+    /*color: #f6f5f3;*/
+    font-family: Exo;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+    /* Text style for "FULL NAME" */
+    letter-spacing: 0.64px;
+    outline: none;
+}
+.trynow-conteiner-form-submit{
+    /* Style for "Rounded Re" */
+    width: 258px;
+    height: 50px;
+    box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+    border-radius: 3px;
+    border: 1px solid #ff6d6d;
+    background-color: #ff6d6d;
+    /* Style for "TRY NOW" */
+    color: #f6f5f3;
+    font-family: Exo, serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    /* Text style for "TRY NOW" */
+    letter-spacing: 0.81px;
+    line-height: normal;
+}
+
+.trynow-conteiner-form-submit:hover{
+    background: #323969;
+}

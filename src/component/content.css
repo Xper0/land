@@ -1,0 +1,280 @@
+.padding{
+  padding: 0 160px 0 160px;
+}
+.content-conteiner > section{
+    padding: 0 160px 0 160px;
+}
+
+
+.content-conteiner-section-newDisign{
+    display: flex;
+    width: 1467px;
+    position: relative;
+}
+
+.content-conteiner{
+    overflow: hidden;
+}
+.content-conteiner-section-newDisign-h3{
+    /* Style for "NEW DESIGN" */
+    color: #ff6d6d;
+    font-family: Exo, serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    /* Text style for "N, EW DESI" */
+    letter-spacing: 3.2px;
+}
+
+.content-conteiner-section-newDisign-h1{
+    align-content: flex-start;
+    /* Style for "There is n" */
+    width: 532px;
+    height: 93px;
+    color: #282828;
+    font-family: Exo, serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 50px;
+    text-align: left;
+    /* Text style for "T, here is" */
+    letter-spacing: 1.6px;
+    margin-bottom: 15px;
+}
+
+.content-conteiner-section-newDisign-h1 > span{
+    /* Text style for "...." */
+    color: #ff6d6d;
+    font-style: normal;
+    letter-spacing: 1.6px;
+    line-height: normal;
+}
+
+.content-conteiner-section-newDisign-p{
+    /* Style for "Aenean eu" */
+    width: 571px;
+    height: 200px;
+    opacity: 0.66;
+    color: #282828;
+    font-family: Exo, serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 26px;
+    text-align: left;
+    /* Text style for "Aenean eu" */
+    letter-spacing: 0.64px;
+}
+
+.content-conteiner-section-newDisign-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 781px;
+
+}
+.content-conteiner-section-newDisign-table-img{
+    /* Style for "Rectangle" */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+}
+
+
+.content-conteiner-section-newDisign-table:nth-child(2){
+    /*position: relative;*/
+    width: 680px;
+    height: 707px;
+    background: #ececec;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.8;
+}
+
+.content-conteiner-section-newFuture{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 675px;
+    background-color: #f6f5f3;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-conteiner-section-newFuture-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-conteiner-section-newFuture-h1{
+    /* Style for "Some aweso" */
+    color: #282828;
+    font-family: Exo, serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    /* Text style for "S, ome awe" */
+    letter-spacing: 1.6px;
+    margin: 0;
+ }
+
+.content-conteiner-section-newFuture-title-row-text{
+    /* Style for "Donec sed" */
+    width: 342px;
+    opacity: 0.66;
+    color: #282828;
+    font-family: Exo, serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 26px;
+    text-align: center;
+    /* Text style for "Donec sed" */
+    font-style: normal;
+    letter-spacing: 0.64px;
+}
+
+.content-conteiner-section-newFuture-img{
+    position: absolute;
+}
+
+
+.content-conteiner-section-newFuture-title-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 91px;
+
+}
+
+.img{
+    /* Style for "Rectangle" */
+    background-color: #ff6d6d;
+    opacity: 0.8;
+}
+
+.content-conteiner-section-newDisignsection{
+    display: flex;
+    overflow: hidden;
+    min-height: 550px;
+}
+
+.content-conteiner-section-newDisign-tablesection{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.content-conteiner-section-newDisign-img{
+    position: absolute;
+    top: -200px;
+    bottom: 0;
+    right: 10px;
+}
+
+.content-feedback{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 648px
+}
+.content-feedback:after{
+    content: '';
+    background: rgba(0,0,0,0.5);
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.content-info{
+    display: flex;
+    z-index: 99;
+    color: #f6f5f3;
+    margin-top: 110px;
+ }
+
+.content-info__block{
+    padding: 10px;
+}
+.content-info__prof{
+    color: #ff6d6d;
+}
+.content-sponsor{
+    z-index: 99;
+    display: flex;
+    align-items: center;
+}
+.content-sponsor__svg{
+    margin: 85px 70px 80px 0;
+}
+.content-sponsor__img{
+    color: white;
+    background: white;
+}
+
+.imgUser{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+}
+
+.browser-conteiner{
+    min-height: 754px;
+    background-color: #f6f5f3;
+}
+
+.browser-content{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.browser-content-h3{
+    padding: 106px 0 15px 0 ;
+    color: #ff6d6d;
+    font-family: Exo, serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+}
+
+.browser-content-h1{
+    color: #282828;
+    font-family: Exo, serif;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    /* Text style for "S, ome awe" */
+    letter-spacing: 1.6px;
+    margin: 0;
+}
+
+.browser-content__p{
+    opacity: 0.66;
+    color: #282828;
+    font-family: Exo, serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 26px;
+    /* Text style for "Aenean eu" */
+    letter-spacing: 0.64px;
+    margin: 48px 86px 93px 86px;
+}
